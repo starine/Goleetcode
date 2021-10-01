@@ -28,7 +28,6 @@ func computeArea(ax1 int, ay1 int, ax2 int, ay2 int, bx1 int, by1 int, bx2 int, 
 	overlapHeight := min(ay2, by2) - max(ay1, by1)
 	return ret - max(overlapWidth, 0) * max(overlapHeight, 0)
 }
-
 func main()  {
 	ret := computeArea(-3, 0, 3, 4, 0, -1, 9, 2)
 	fmt.Println(ret)
