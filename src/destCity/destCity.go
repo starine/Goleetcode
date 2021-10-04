@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 /*
 1436. 旅行终点站：https://leetcode-cn.com/problems/destination-city/
@@ -26,6 +28,26 @@ func destCity(paths [][]string) string {
 	}
 	return ""
 }
+
+/*func destCity(paths [][]string) string {
+	visitedSet := map[string]bool{}
+	destinationSet := map[string]bool{}
+	var ret string
+	for _, path := range paths {
+		if destinationSet[path[0]] {
+			delete(destinationSet, path[0])
+		}
+		if !visitedSet[path[1]] {
+			destinationSet[path[1]] = true
+		}
+		visitedSet[path[1]] = true
+		visitedSet[path[0]] = true
+	}
+	for key := range destinationSet {
+		ret = key
+	}
+	return ret
+}*/
 
 /*
 官方解答
