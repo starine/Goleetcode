@@ -7,3 +7,4 @@ leetcode solution by golang
 4. 分数到小数 leetcode166: https://leetcode-cn.com/problems/fraction-to-recurring-decimal/
 5. 密钥格式化 leetcode482: https://leetcode-cn.com/problems/license-key-formatting/
 6. 窥探迭代器 leetcode284: https://leetcode-cn.com/problems/peeking-iterator/
+7. 两数之和 leetcode1 ：https://leetcode-cn.com/problems/two-sum/
