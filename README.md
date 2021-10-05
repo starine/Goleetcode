@@ -6,3 +6,4 @@ leetcode solution by golang
 3. 数字转换为十六进制数 leetcode405: https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal/
 4. 分数到小数 leetcode166: https://leetcode-cn.com/problems/fraction-to-recurring-decimal/
 5. 密钥格式化 leetcode482: https://leetcode-cn.com/problems/license-key-formatting/
+6. 窥探迭代器 leetcode284: https://leetcode-cn.com/problems/peeking-iterator/
