@@ -9,3 +9,4 @@ leetcode solution by golang
 6. 窥探迭代器 leetcode284: https://leetcode-cn.com/problems/peeking-iterator/
 7. 两数之和 leetcode1：https://leetcode-cn.com/problems/two-sum/
 8. 第三大的数 leetcode414: https://leetcode-cn.com/problems/third-maximum-number/
+9. 字符串中的单词数 leetcode434: https://leetcode-cn.com/problems/number-of-segments-in-a-string/
