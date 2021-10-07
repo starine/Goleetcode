@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"time"
 )
 
 /*
@@ -126,4 +127,17 @@ func main() {
 	//showNode(l2)
 	ret := addTwoNumbers(l1, l2)
 	showNode(ret)
+	//计算函数运行时间
+	timeAddTN := timeSpent(addTwoNumbers)
+	fmt.Println(timeAddTN(l1, l2))
+}
+
+func timeSpent(inner func(l1, l2 *ListNode) *ListNode) func(l1, l2 *ListNode) *ListNode {
+	return func(l1, l2 *ListNode) *ListNode {
+		start := time.Now()
+		time.Sleep(time.Second * 1)
+		ret := inner(l1, l2)
+		fmt.Println("time spent :", time.Since(start).Seconds())
+		return ret
+	}
 }
