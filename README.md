@@ -11,3 +11,4 @@ leetcode solution by golang
 8. 第三大的数 leetcode414: https://leetcode-cn.com/problems/third-maximum-number/
 9. 字符串中的单词数 leetcode434: https://leetcode-cn.com/problems/number-of-segments-in-a-string/
 10. 两数相加 leetcode2: https://leetcode-cn.com/problems/add-two-numbers/
+11. 重复的DNA序列 leetcode187: https://leetcode-cn.com/problems/repeated-dna-sequences/
