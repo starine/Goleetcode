@@ -14,3 +14,4 @@ leetcode solution by golang
 11. 重复的DNA序列 leetcode187: https://leetcode-cn.com/problems/repeated-dna-sequences/
 12. 将数据流变为多个不相交区间 leetcode352: https://leetcode-cn.com/problems/data-stream-as-disjoint-intervals/
 13. 排列硬币 leetcode441: https://leetcode-cn.com/problems/arranging-coins/
+14. 外观数列 leetcode38: https://leetcode-cn.com/problems/count-and-say/
