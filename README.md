@@ -15,3 +15,4 @@ leetcode solution by golang
 12. 将数据流变为多个不相交区间 leetcode352: https://leetcode-cn.com/problems/data-stream-as-disjoint-intervals/
 13. 排列硬币 leetcode441: https://leetcode-cn.com/problems/arranging-coins/
 14. 外观数列 leetcode38: https://leetcode-cn.com/problems/count-and-say/
+15. 给表达式添加运算符 leetcode282: https://leetcode-cn.com/problems/expression-add-operators/
