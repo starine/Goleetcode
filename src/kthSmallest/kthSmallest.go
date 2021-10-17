@@ -29,7 +29,7 @@ func kthSmallest(root *TreeNode, k int) int {
 	}
 }
 
-//先序遍历
+//先根遍历初始化二叉树
 var i = -1
 
 func HaveEmptyCreate(arr []int) *TreeNode {
