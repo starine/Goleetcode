@@ -17,3 +17,4 @@ leetcode solution by golang
 14. 外观数列 leetcode38: https://leetcode-cn.com/problems/count-and-say/
 15. 给表达式添加运算符 leetcode282: https://leetcode-cn.com/problems/expression-add-operators/
 16. 二叉搜索树中第K小的元素 leetcode230: https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/
+17. 添加与搜索单词 - 数据结构设计 leetcode211: https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/
