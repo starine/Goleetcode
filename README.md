@@ -21,3 +21,4 @@ leetcode solution by golang
 18. 添加与搜索单词 - 数据结构设计 leetcode211: https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/
 19. 最小操作次数使数组元素相等 leetcode453: https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements/
 20. 加一 leetcode66: https://leetcode-cn.com/problems/plus-one/
+21. 求众数 II leetcode229: https://leetcode-cn.com/problems/majority-element-ii/
