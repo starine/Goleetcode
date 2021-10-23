@@ -22,3 +22,4 @@ leetcode solution by golang
 19. 最小操作次数使数组元素相等 leetcode453: https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements/
 20. 加一 leetcode66: https://leetcode-cn.com/problems/plus-one/
 21. 求众数 II leetcode229: https://leetcode-cn.com/problems/majority-element-ii/
+22. 构造矩形 leetcode492: https://leetcode-cn.com/problems/construct-the-rectangle/
