@@ -23,3 +23,4 @@ leetcode solution by golang
 20. 加一 leetcode66: https://leetcode-cn.com/problems/plus-one/
 21. 求众数 II leetcode229: https://leetcode-cn.com/problems/majority-element-ii/
 22. 构造矩形 leetcode492: https://leetcode-cn.com/problems/construct-the-rectangle/
+23. 大礼包 leetcode638: https://leetcode-cn.com/problems/shopping-offers/
