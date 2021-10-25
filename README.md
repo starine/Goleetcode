@@ -24,3 +24,4 @@ leetcode solution by golang
 21. 求众数 II leetcode229: https://leetcode-cn.com/problems/majority-element-ii/
 22. 构造矩形 leetcode492: https://leetcode-cn.com/problems/construct-the-rectangle/
 23. 大礼包 leetcode638: https://leetcode-cn.com/problems/shopping-offers/
+24. 搜索二维矩阵 II leetcode240: https://leetcode-cn.com/problems/search-a-2d-matrix-ii/
