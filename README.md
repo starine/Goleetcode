@@ -27,3 +27,4 @@ leetcode solution by golang
 24. 搜索二维矩阵 II leetcode240: https://leetcode-cn.com/problems/search-a-2d-matrix-ii/
 25. 下一个更大元素 I 496: https://leetcode-cn.com/problems/next-greater-element-i/
 26. 删除无效的括号 leetcode301： https://leetcode-cn.com/problems/remove-invalid-parentheses/
+27. 重新排序得到 2 的幂 leetcode869: https://leetcode-cn.com/problems/reordered-power-of-2/
