@@ -30,3 +30,4 @@ leetcode solution by golang
 27. 重新排序得到 2 的幂 leetcode869: https://leetcode-cn.com/problems/reordered-power-of-2/
 28. 路径交叉 leetcode335: https://leetcode-cn.com/problems/self-crossing/
 29. 只出现一次的数字 III leetcode260: https://leetcode-cn.com/problems/single-number-iii/
+30. 键盘行 leetcode500: https://leetcode-cn.com/problems/keyboard-row/
