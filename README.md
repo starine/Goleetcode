@@ -31,3 +31,4 @@ leetcode solution by golang
 28. 路径交叉 leetcode335: https://leetcode-cn.com/problems/self-crossing/
 29. 只出现一次的数字 III leetcode260: https://leetcode-cn.com/problems/single-number-iii/
 30. 键盘行 leetcode500: https://leetcode-cn.com/problems/keyboard-row/
+31. 分糖果 leetcode575: https://leetcode-cn.com/problems/distribute-candies/
