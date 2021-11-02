@@ -32,3 +32,4 @@ leetcode solution by golang
 29. 只出现一次的数字 III leetcode260: https://leetcode-cn.com/problems/single-number-iii/
 30. 键盘行 leetcode500: https://leetcode-cn.com/problems/keyboard-row/
 31. 分糖果 leetcode575: https://leetcode-cn.com/problems/distribute-candies/
+32. 删除链表中的节点 leetcode237: https://leetcode-cn.com/problems/delete-node-in-a-linked-list/
