@@ -35,3 +35,4 @@ leetcode solution by golang
 32. 删除链表中的节点 leetcode237: https://leetcode-cn.com/problems/delete-node-in-a-linked-list/
 33. 接雨水 II leetcode407: https://leetcode-cn.com/problems/trapping-rain-water-ii/
 34. 存在重复元素 leetcode217: https://leetcode-cn.com/problems/contains-duplicate/
+35. 最大子序和 leetcode53:  https://leetcode-cn.com/problems/maximum-subarray/
