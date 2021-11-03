@@ -34,3 +34,4 @@ leetcode solution by golang
 31. 分糖果 leetcode575: https://leetcode-cn.com/problems/distribute-candies/
 32. 删除链表中的节点 leetcode237: https://leetcode-cn.com/problems/delete-node-in-a-linked-list/
 33. 接雨水 II leetcode407: https://leetcode-cn.com/problems/trapping-rain-water-ii/
+34. 存在重复元素 leetcode217: https://leetcode-cn.com/problems/contains-duplicate/
