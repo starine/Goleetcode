@@ -37,3 +37,4 @@ leetcode solution by golang
 34. 存在重复元素 leetcode217: https://leetcode-cn.com/problems/contains-duplicate/
 35. 最大子序和 leetcode53:  https://leetcode-cn.com/problems/maximum-subarray/
 36. 有效的完全平方数 leetcode367: https://leetcode-cn.com/problems/valid-perfect-square/
+37. 合并两个有序数组 leetcode88: https://leetcode-cn.com/problems/merge-sorted-array/
