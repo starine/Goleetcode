@@ -39,3 +39,4 @@ leetcode solution by golang
 36. 有效的完全平方数 leetcode367: https://leetcode-cn.com/problems/valid-perfect-square/
 37. 合并两个有序数组 leetcode88: https://leetcode-cn.com/problems/merge-sorted-array/
 38. 最长定差子序列 leetcode1218: https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/
+39. 丢失的数字 leetcode268：https://leetcode-cn.com/problems/missing-number/
