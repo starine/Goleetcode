@@ -42,3 +42,4 @@ leetcode solution by golang
 39. 丢失的数字 leetcode268：https://leetcode-cn.com/problems/missing-number/
 40. 范围求和 II leetcode598： https://leetcode-cn.com/problems/range-addition-ii/
 41. 猜数字游戏 leetcode299: https://leetcode-cn.com/problems/bulls-and-cows/
+42. 祖玛游戏 leetcode488: https://leetcode-cn.com/problems/zuma-game/
