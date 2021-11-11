@@ -44,3 +44,4 @@ leetcode solution by golang
 41. 猜数字游戏 leetcode299: https://leetcode-cn.com/problems/bulls-and-cows/
 42. 祖玛游戏 leetcode488: https://leetcode-cn.com/problems/zuma-game/
 43. 提莫攻击 leetcode495:  https://leetcode-cn.com/problems/teemo-attacking/
+44. K个逆序对数组 leetcode629: https://leetcode-cn.com/problems/k-inverse-pairs-array/
