@@ -45,3 +45,5 @@ leetcode solution by golang
 42. 祖玛游戏 leetcode488: https://leetcode-cn.com/problems/zuma-game/
 43. 提莫攻击 leetcode495:  https://leetcode-cn.com/problems/teemo-attacking/
 44. K个逆序对数组 leetcode629: https://leetcode-cn.com/problems/k-inverse-pairs-array/
+45. 猜数字大小 II leetcode375: https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/
+46. 
