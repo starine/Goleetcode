@@ -46,4 +46,4 @@ leetcode solution by golang
 43. 提莫攻击 leetcode495:  https://leetcode-cn.com/problems/teemo-attacking/
 44. K个逆序对数组 leetcode629: https://leetcode-cn.com/problems/k-inverse-pairs-array/
 45. 猜数字大小 II leetcode375: https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/
-46. 
+46. 检测大写字母 leetcode520:  https://leetcode-cn.com/problems/detect-capital/
