@@ -48,3 +48,4 @@ leetcode solution by golang
 45. 猜数字大小 II leetcode375: https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/
 46. 检测大写字母 leetcode520:  https://leetcode-cn.com/problems/detect-capital/
 47. 键值映射 leetcode677: https://leetcode-cn.com/problems/map-sum-pairs/
+48. 灯泡开关 leetcode319: https://leetcode-cn.com/problems/bulb-switcher/
