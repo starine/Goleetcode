@@ -50,3 +50,4 @@ leetcode solution by golang
 47. 键值映射 leetcode677: https://leetcode-cn.com/problems/map-sum-pairs/
 48. 灯泡开关 leetcode319: https://leetcode-cn.com/problems/bulb-switcher/
 49. 完美矩形 leetcode391: https://leetcode-cn.com/problems/perfect-rectangle/
+50. 最大单词长度乘积 leetcode318: https://leetcode-cn.com/problems/maximum-product-of-word-lengths/
