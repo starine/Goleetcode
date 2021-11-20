@@ -53,3 +53,4 @@ leetcode solution by golang
 50. 最大单词长度乘积 leetcode318: https://leetcode-cn.com/problems/maximum-product-of-word-lengths/
 51. 二叉树的坡度 leetcode563: https://leetcode-cn.com/problems/binary-tree-tilt/
 52. 整数替换 leetcode397: https://leetcode-cn.com/problems/integer-replacement/
+53. 最长和谐子序列 leetcode594: https://leetcode-cn.com/problems/longest-harmonious-subsequence/
