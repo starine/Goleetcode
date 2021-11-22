@@ -55,3 +55,4 @@ leetcode solution by golang
 52. 整数替换 leetcode397: https://leetcode-cn.com/problems/integer-replacement/
 53. 最长和谐子序列 leetcode594: https://leetcode-cn.com/problems/longest-harmonious-subsequence/
 54. N 叉树的最大深度 leetcode559: https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/
+55. 打乱数组 leetcode384: https://leetcode-cn.com/problems/shuffle-an-array/
