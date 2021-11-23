@@ -56,3 +56,4 @@ leetcode solution by golang
 53. 最长和谐子序列 leetcode594: https://leetcode-cn.com/problems/longest-harmonious-subsequence/
 54. N 叉树的最大深度 leetcode559: https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/
 55. 打乱数组 leetcode384: https://leetcode-cn.com/problems/shuffle-an-array/
+56. 亲密字符串 leetcode859: https://leetcode-cn.com/problems/buddy-strings/
