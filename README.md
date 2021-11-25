@@ -57,3 +57,4 @@ leetcode solution by golang
 54. N 叉树的最大深度 leetcode559: https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/
 55. 打乱数组 leetcode384: https://leetcode-cn.com/problems/shuffle-an-array/
 56. 亲密字符串 leetcode859: https://leetcode-cn.com/problems/buddy-strings/
+57. 从英文中重建数字 leetcode423: https://leetcode-cn.com/problems/reconstruct-original-digits-from-english/
