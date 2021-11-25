@@ -58,3 +58,4 @@ leetcode solution by golang
 55. 打乱数组 leetcode384: https://leetcode-cn.com/problems/shuffle-an-array/
 56. 亲密字符串 leetcode859: https://leetcode-cn.com/problems/buddy-strings/
 57. 从英文中重建数字 leetcode423: https://leetcode-cn.com/problems/reconstruct-original-digits-from-english/
+58. 可怜的小猪 leetcode458: https://leetcode-cn.com/problems/poor-pigs/
