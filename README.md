@@ -59,3 +59,4 @@ leetcode solution by golang
 56. 亲密字符串 leetcode859: https://leetcode-cn.com/problems/buddy-strings/
 57. 从英文中重建数字 leetcode423: https://leetcode-cn.com/problems/reconstruct-original-digits-from-english/
 58. 可怜的小猪 leetcode458: https://leetcode-cn.com/problems/poor-pigs/
+59. 学习二叉搜索树
