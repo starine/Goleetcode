@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 //定义二叉树节点
 type TreeNode struct {
@@ -26,6 +29,22 @@ func midOrderTraversal(root *TreeNode) (res []int) {
 		midOrder(node.Right)
 	}
 	midOrder(root)
+	return
+}
+
+//使用栈实现中序遍历
+func midOrderTraversal2(root *TreeNode) (res []int) {
+	stack := []*TreeNode{}
+	for root != nil || len(stack) > 0 {
+		for root != nil {
+			stack = append(stack, root)
+			root = root.Left
+		}
+		root = stack[len(stack)-1]
+		stack = stack[:len(stack)-1]
+		res = append(res, root.Val)
+		root = root.Right
+	}
 	return
 }
 
@@ -92,6 +111,71 @@ func searchBST(root *TreeNode, val int) *TreeNode {
 	return nil
 }
 
+//判断是否是二叉搜索树
+func isValidBST(root *TreeNode) bool {
+	return helper(root, math.MinInt64, math.MaxInt64)
+}
+func helper(root *TreeNode, lower, upper int) bool {
+	if root == nil {
+		return true
+	}
+	if root.Val <= lower || root.Val >= upper {
+		return false
+	}
+	return helper(root.Left, lower, root.Val) && helper(root.Right, root.Val, upper)
+}
+
+type BSTIterator struct {
+	stack []*TreeNode
+	cur   *TreeNode
+}
+
+func Constructor(root *TreeNode) BSTIterator {
+	return BSTIterator{cur: root}
+}
+
+func (it *BSTIterator) Next() int {
+	for node := it.cur; node != nil; node = node.Left {
+		it.stack = append(it.stack, node)
+	}
+	it.cur, it.stack = it.stack[len(it.stack)-1], it.stack[:len(it.stack)-1]
+	val := it.cur.Val
+	it.cur = it.cur.Right
+	return val
+}
+
+func (it *BSTIterator) HasNext() bool {
+	return it.cur != nil || len(it.stack) > 0
+}
+
+func deleteNode(root *TreeNode, key int) *TreeNode {
+	if root == nil {
+		return root
+	}
+	if key == root.Val {
+		if root.Left == nil {
+			return root.Right
+		}
+		if root.Right == nil {
+			return root.Left
+		}
+		cur := root.Right
+		for cur.Left != nil {
+			cur = cur.Left
+		}
+		cur.Left = root.Left
+		root = root.Right
+		return root
+	}
+	if key < root.Val {
+		root.Left = deleteNode(root.Left, key)
+	}
+	if key > root.Val {
+		root.Right = deleteNode(root.Right, key)
+	}
+	return root
+}
+
 func main() {
 	nums := []int{2, 7, 1, 3}
 	root := &TreeNode{4, nil, nil}
@@ -102,4 +186,6 @@ func main() {
 	val := 2
 	ret := searchBST(root, val)
 	fmt.Println(levelOrder(ret))
+	fmt.Println(isValidBST(root))
+	fmt.Println(deleteNode(root, 3))
 }
