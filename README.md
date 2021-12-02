@@ -65,3 +65,4 @@ leetcode solution by golang
 62. 第 K 个最小的素数分数 leetcode786: https://leetcode-cn.com/problems/k-th-smallest-prime-fraction/
 63. 第 N 位数字 leetcode400: https://leetcode-cn.com/problems/nth-digit/
 64. 连续字符 leetcode1446: https://leetcode-cn.com/problems/consecutive-characters/
+65. 相对名次 leetcode506: https://leetcode-cn.com/problems/relative-ranks/
