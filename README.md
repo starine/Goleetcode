@@ -66,3 +66,5 @@ leetcode solution by golang
 63. 第 N 位数字 leetcode400: https://leetcode-cn.com/problems/nth-digit/
 64. 连续字符 leetcode1446: https://leetcode-cn.com/problems/consecutive-characters/
 65. 相对名次 leetcode506: https://leetcode-cn.com/problems/relative-ranks/
+66. K 次取反后最大化的数组和 leetcode1005: https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations/
+67. 赎金信 leetcode383: https://leetcode-cn.com/problems/ransom-note/
