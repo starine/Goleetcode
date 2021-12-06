@@ -68,3 +68,4 @@ leetcode solution by golang
 65. 相对名次 leetcode506: https://leetcode-cn.com/problems/relative-ranks/
 66. K 次取反后最大化的数组和 leetcode1005: https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations/
 67. 赎金信 leetcode383: https://leetcode-cn.com/problems/ransom-note/
+68. 超级次方 leetcode372: https://leetcode-cn.com/problems/super-pow/
