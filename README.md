@@ -71,3 +71,4 @@ leetcode solution by golang
 68. 超级次方 leetcode372: https://leetcode-cn.com/problems/super-pow/
 69. slice 学习笔记
 70. 截断句子 leetcode1816: https://leetcode-cn.com/problems/truncate-sentence/
+71. 边界着色 leetcode1034: https://leetcode-cn.com/problems/coloring-a-border/
