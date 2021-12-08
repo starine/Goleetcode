@@ -72,3 +72,4 @@ leetcode solution by golang
 69. slice 学习笔记
 70. 截断句子 leetcode1816: https://leetcode-cn.com/problems/truncate-sentence/
 71. 边界着色 leetcode1034: https://leetcode-cn.com/problems/coloring-a-border/
+72. 三个无重叠子数组的最大和 leetcode689: https://leetcode-cn.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
