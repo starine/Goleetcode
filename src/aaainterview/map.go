@@ -3,7 +3,25 @@ package main
 import (
 	"fmt"
 	"sort"
+	"unsafe"
 )
+
+type hmap struct {
+	count      int            //map中键值对数量
+	flags      uint8          //map当前是否处于写入状态等
+	B          uint8          //2的B次幂表示当前map中桶的数量
+	noverflow  uint16         //map中溢出桶的数量，当溢出桶太多时，map会进行等量扩容
+	hash0      uint32         //生成hash的随机数种子
+	buckets    unsafe.Pointer //当前map对应的桶的指针
+	oldbuckets unsafe.Pointer //map扩容时指向旧桶的指针，当所有旧桶中的数据转移到新桶时，清空
+	nevacuate  uintptr        //扩容时，用于标记当前旧桶中小于nevacute的数据都已经转移到了新桶
+	//extra *mapextra	//存储map的溢出桶
+}
+type bmap struct {
+	tophash  [8]uint8 //存储Hash值的高8位
+	data     []byte   //key value数据：key/key/key.../value/value/value...
+	overflow *bmap    //溢出bucket的地址
+}
 
 func main() {
 	var m1 map[string]int
