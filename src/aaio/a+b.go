@@ -123,11 +123,10 @@ func input44() {
 		}
 		for _, num := range str {
 			n, _ := strconv.Atoi(num)
+			sum += n
 			nums = append(nums, n)
 		}
-		for j := 1; j <= nums[0]; j++ {
-			sum += nums[j]
-		}
+		sum -= nums[0]
 		fmt.Println(sum)
 		sum = 0
 		nums = nums[0:0]
