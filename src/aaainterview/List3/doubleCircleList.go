@@ -7,19 +7,19 @@ package List3
 
 //循环双链表
 type MyLinkedList struct {
-	dummy *Node
+	dummy *ListNode
 }
 
-type Node struct {
+type ListNode struct {
 	Val  int
-	Next *Node
-	Pre  *Node
+	Next *ListNode
+	Pre  *ListNode
 }
 
 //仅保存哑节点，pre-> rear, next-> head
 /** Initialize your data structure here. */
 func Constructor() MyLinkedList {
-	rear := &Node{
+	rear := &ListNode{
 		Val:  -1,
 		Next: nil,
 		Pre:  nil,
@@ -47,7 +47,7 @@ func (this *MyLinkedList) Get(index int) int {
 /** Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list. */
 func (this *MyLinkedList) AddAtHead(val int) {
 	dummy := this.dummy
-	node := &Node{
+	node := &ListNode{
 		Val: val,
 		//head.Next指向原头节点
 		Next: dummy.Next,
@@ -65,7 +65,7 @@ func (this *MyLinkedList) AddAtHead(val int) {
 /** Append a node of value val to the last element of the linked list. */
 func (this *MyLinkedList) AddAtTail(val int) {
 	dummy := this.dummy
-	rear := &Node{
+	rear := &ListNode{
 		Val: val,
 		//rear.Next = dummy(哑节点)
 		Next: dummy,
@@ -88,7 +88,7 @@ func (this *MyLinkedList) AddAtIndex(index int, val int) {
 		head = head.Next
 		index--
 	}
-	node := &Node{
+	node := &ListNode{
 		Val: val,
 		//node.Next = MyLinkedList[index]
 		Next: head,
